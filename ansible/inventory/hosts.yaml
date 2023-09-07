@@ -1,0 +1,13 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        dock0:
+          ansible_user: server
+          ansible_host: 10.0.0.20
+    worker:
+      hosts:
+        dock1:
+          ansible_user: server
+          ansible_host: 10.0.0.21
